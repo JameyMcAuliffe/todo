@@ -1,0 +1,23 @@
+{
+  "name": "todo",
+  "description": "",
+  "main": "server/server.js",
+  "authors": [
+    "Jamey McAuliffe <jpmcauliffe15@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JameyMcAuliffe/todo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.5.8"
+  }
+}
