@@ -13,6 +13,10 @@ app.set('PORT', PORT)
 app.use(express.static('client'))
 app.use(json())
 
+app.get('/api/title', (req, res) => 
+	res.json({title: 'To Do App'})
+)
+
 app.listen(PORT, () => {
 	console.log(`Listening on port: ${PORT}`)
 })
